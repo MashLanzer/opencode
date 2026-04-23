@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.vendor/
+bower_components/
+
+# Build outputs
+dist/
+build/
+*.o
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+credentials.json
+
+# Obsidian config (sensitive)
+.obsidian/graph.json
+.obsidian/workspace.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
+.obsidian/*.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Certs (already in vault - sensitive)
+obsidian-local-rest-api.crt
