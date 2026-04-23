@@ -2,7 +2,7 @@
 
 ## 🤖 Asistente IA con Memoria Persistente
 
-> Sistema completo: 25+ implementaciones + 7 integraciones externas
+> Sistema completo: 25+ implementaciones + 10 integraciones externas
 
 ---
 
@@ -46,6 +46,10 @@
 
 ### Mensajería
 - [[Notas/integraciones/telegram|Telegram Bot]] - Bot de Telegram
+- [[Notas/integraciones/discord|Discord Bot]] - Bot de Discord (+Voice)
+
+### Email
+- [[Notas/integraciones/gmail|Gmail]] - Enviar/leer emails
 
 ### Productividad
 - [[Notas/integraciones/cal|Cal.com]] - Calendario
@@ -62,6 +66,9 @@
 
 ### Aprendizaje
 - [[Notas/integraciones/anki|Anki]] - Spaced Repetition
+
+### 🤖 AI
+- [[Notas/integraciones/agents|AI Agents]] - Agentes con Ollama
 
 ---
 
@@ -80,6 +87,8 @@
 ### Archivos Principales
 ```
 /telegram-bot.py      - Bot de Telegram
+/discord-bot.py      - Bot de Discord
+/gmail-integration.py - Gmail API
 /cal-integration.py   - Calendario
 /anki-integration.py - Anki
 /home-assistant-integration.py
@@ -87,6 +96,7 @@
 /Dockerfile
 /requirements.txt
 /browser-extension/
+/agents/              - AI Agents
 ```
 
 ---
@@ -99,7 +109,10 @@
 | OMI Second Brain | ✅ Sincronizado |
 | GitHub | ✅ Subido |
 | Telegram Bot | ✅ Listo |
+| Discord Bot | ✅ Nuevo |
+| Gmail | ⚠️ Setup |
 | Cal.com | ✅ Configurado |
+| AI Agents | ⚠️ Docker |
 
 ---
 
