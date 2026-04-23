@@ -41,3 +41,7 @@ temp/
 
 # Certs (already in vault - sensitive)
 obsidian-local-rest-api.crt
+
+# Sync scripts (local use only)
+sync-*.ps1
+test-omi.ps1
