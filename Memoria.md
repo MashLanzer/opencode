@@ -1,30 +1,46 @@
 # Memoria - opencode
 
-## Indice Principal
+## Indice Principal - 18+ Implementaciones
 
-### Sistema
-- [[Notas/daily-brief]] - Daily Brief (MUESTRA SIEMPRE)
-- [[Notas/tareas/todo]] - Sistema de tareas
-- [[Notas/alertas]] - Alertas y notificaciones
+### Sistema (MUESTRA SIEMPRE)
+- [[Notas/daily-brief]] - Daily Brief
+- [[Notas/tareas/pendientes]] - Tareas pendientes
+- [[Notas/alertas]] - Alertas
+
+### NUCLEO
+- [[Notas/configuracion]] - Configuracion
+- [[Notas/preferencias]] - Preferencias del usuario
+- [[Notas/conversaciones]] - Historial de sesiones
+
+### UTILIDADES
+- [[Notas/comandos]] - Comandos
+- [[Notas/instrucciones]] - Guia
+- [[Notas/temas]] - Temas de conversacion
+- [[Notas/busqueda]] - Busqueda cruzada
 - [[Notas/chat-context]] - Contexto de chat
 
-### Calendario
+### ANALISIS
+- [[Notas/analytics]] - Estadisticas
+- [[Notas/export]] - Exportar notas
 - [[Notas/calendario]] - Fechas y recordatorios
 
-### Plantillas
-- [[Notas/templates/index]] - Indice de plantillas
-- [[Notas/templates/proyecto]] -Nuevo proyecto
-- [[Notas/templates/fecha]] - Tarea con fecha
-
-### Analisis
-- [[Notas/analytics]] - Estadisticas
-- [[Notas/export]] - Exportar
-
-### Respaldo
-- [[Notas/backup/historial]] - Historial
+### RESPALDO
+- [[Notas/backup/historial]] - Historial de backups
 - [[backup.ps1]] - Script de backup
 
-### GitHub
+### PLANTILLAS
+- [[Notas/templates/index]] - Indice
+- [[Notas/templates/tarea]] - Nueva tarea
+- [[Notas/templates/proyecto]] - Nuevo proyecto
+- [[Notas/templates/fecha]] - Tarea con fecha
+
+### RESUMEN
+- [[Notas/implementaciones]] - Todas las implementaciones
+
+### PROYECTOS
+- [[Proyectos/opencode]] - Proyecto principal
+
+### GIT
 - https://github.com/MashLanzer/opencode
 
 ---
