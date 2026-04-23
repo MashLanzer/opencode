@@ -1,27 +1,30 @@
 # Memoria - opencode
 
-## Indice Principal - 18+ Implementaciones + Integraciones
+## Indice Principal - 20+ Implementaciones
+
+### INTEGRACIONES ACTIVAS
+- [[Notas/integraciones/telegram]] - Telegram Bot (listo para deploy)
+- [[Notas/integraciones/cal]] - Cal.com (listo para usar)
 
 ### SISTEMA (MUESTRA SIEMPRE)
 - [[Notas/daily-brief]] - Daily Brief
 - [[Notas/tareas/pendientes]] - Tareas
 - [[Notas/alertas]] - Alertas
 
-### INTEGRACIONES
-- [[Notas/integraciones/progreso]] - Progreso general
-- [[Notas/integraciones/telegram]] - Telegram Bot
-- [[Notas/integraciones/cal]] - Cal.com
-
 ### RESUMEN
 - [[Notas/implementaciones]] - 18+ Implementaciones
+- [[Notas/integraciones/progreso]] - Progreso
 
 ### UTILIDADES
 - [[Notas/analytics]] - Analytics
-- [[Notas/export]] - Export
 - [[Notas/busqueda]] - Busqueda cruzada
 
 ### PLANTILLAS
 - [[Notas/templates/index]]
+
+### DOCKER
+- [[Dockerfile]] - Listo para deploy
+- [[requirements.txt]]
 
 ### GIT
 - https://github.com/MashLanzer/opencode

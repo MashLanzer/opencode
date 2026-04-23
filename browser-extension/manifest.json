@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "OpenCode Web Clipper",
+  "version": "1.0",
+  "description": "Save web pages directly to Obsidian",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
