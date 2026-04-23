@@ -48,3 +48,33 @@ El usuario solicit� que:
    - Notas/ para notas generales
 
 *Actualizado: 2026-04-23*
+
+---
+
+## 2026-04-23 - Sesi�n GitHub Setup
+
+### Resumen
+Se implement� la estructura del proyecto y se Subi� a GitHub.
+
+### Tareas Completadas
+- [x] Inicializar repositorio git
+- [x] Crear .gitignore
+- [x] Subir proyecto a GitHub (MashLanzer/opencode)
+- [x] Crear nota de tareas pendientes
+- [x] Actualizar �ndice Memoria.md
+
+### Nueva Estructura
+`
+opencode/
+??? README.md
+??? .gitignore
+??? Memoria.md
+??? Notas/
+?   ??? configuracion.md
+?   ??? conversaciones.md
+?   ??? tareas.md
+??? Proyectos/
+    ??? opencode.md
+`
+
+*Actualizado: 2026-04-23*

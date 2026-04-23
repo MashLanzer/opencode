@@ -2,9 +2,16 @@
 
 ## �ndice
 
+### Principal
 - [[Proyectos/opencode]]
+
+### Notas
 - [[Notas/configuracion]]
 - [[Notas/conversaciones]]
+- [[Notas/tareas]]
+
+### GitHub
+- https://github.com/MashLanzer/opencode
 
 ---
 
