@@ -1,16 +1,34 @@
+---
+tags: [proyecto, opencode]
+creado: 2026-04-23
+estado: activo
+---
+
 # Proyecto opencode
 
 ## Descripci�n
-Proyecto principal de opencode - assistente de IA con memoria persistente via Obsidian.
+Asistente de IA con memoria persistente via Obsidian
 
-## Configuraci�n
-- [[Notas/configuracion]]
+## �ndice de Notas
 
-## Estado
-- [x] Obsidian conectado (puerto 27123)
-- [x] API key configurada
+### Sistema
+- [[Notas/configuracion]] - Config t�cnica
+- [[Notas/comandos]] - C�mo hablarme
+- [[Notas/instrucciones]] - Gu�a
 
-## Notas relacionadas
-- [[Notas/conversaciones]]
+### Registro
+- [[Notas/conversaciones]] - Historial
+- [[Notas/tareas]] - Progreso
+- [[Notas/preferencias]] - Tus preferencias
 
-*Creado: 2026-04-23*
+### Recursos
+- [[Notas/instalar-dataview]] - Gu�a Dataview
+- [[Notas/2026-04-23-resumen]] - Resumen de sesi�n
+
+### Principal
+- [[Memoria]] - �ndice maestro
+
+## GitHub
+https://github.com/MashLanzer/opencode
+
+*Actualizado: 2026-04-23*

@@ -1,22 +1,24 @@
+---
+tags: [config, opencode]
+creado: 2026-04-23
+---
+
 # Configuraci�n OpenCode
-
-## Variables de Entorno
-
-| Variable | Valor |
-|----------|-------|
-| OBSIDIAN_API_URL | https://127.0.0.1:27124 |
-| OBSIDIAN_VAULT | opencode |
-| OBSIDIAN_API_KEY | (configurada) |
 
 ## Conexi�n
 
-- **Puerto Seguro**: 27124 (SSL)
-- **Puerto Inseguro**: 27123 (HTTP) - actualmente en uso
-- **API Key**: dadde3d8184f6aae78239eb4570ac4430b55532fcf5afb77fd081f70c7e0c459
-- **Autenticaci�n**: Certificado RSA
+| Variable | Valor |
+|----------|-------|
+| API URL | http://127.0.0.1:27123 |
+| Vault | opencode |
+| API Key | (configurada) |
 
 ## Estado
-- ? Conectado via puerto 27123
-- ?? Requiere autenticaci�n con certificado (no API key simple disponible)
+- [[Notas/instalar-dataview]] - Plugin Dataview instalado
+- [[Notas/tareas]] - Sistema de tareas activo
+
+## Ver tambi�n
+- [[Memoria]] - �ndice principal
+- [[Notas/preferencias]] - Tus preferencias
 
 *Actualizado: 2026-04-23*
