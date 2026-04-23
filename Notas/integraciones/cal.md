@@ -10,38 +10,22 @@ actualizado: 2026-04-23
 - **API Key**: cal_live_9643088a06b3a5a774337b5e40485f93
 
 ## Estado
-- **API**: Conectada
-- **Calendarios**: 0 (sin conectar)
-- **Event Types**: 0
+- **Script**: Listo
+- **API**: Conectada (verificando)
+- **Calendarios**: Pending verificacion
 
-## Pendiente
-- [ ] Conectar calendario en Cal.com
-- [ ] Autorizar Google Calendar u Outlook
-
-## Como Conectar
-1. Ir a cal.com/settings
-2. Connected Calendars
-3. Add Calendar (Google/Outlook)
-4. Autorizar
+## Docker
+- Dockerfile listo
+- Listo para deploy
 
 ## Funcionalidades
-- Leer reuniones del dia
-- Ver disponibilidad
-- Agendar reuniones
-- Preparar contexto para reuniones
+- Ver reuniones del dia
+- Preparar contexto antes de reuniones
+- Agendar nuevas reuniones
 
 ## Scripts
 - cal-integration.py
-
-## Uso
-\\\python
-from cal_integration import check_today_meetings, get_bookings
-
-# Get today meetings
-meetings = check_today_meetings()
-for meeting in meetings:
-    print(meeting[title])
-\\\
+- Dockerfile
 
 ---
-*Esperando conectar calendario*
+*En uso*

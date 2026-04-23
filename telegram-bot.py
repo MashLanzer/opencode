@@ -234,18 +234,9 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 # ============= DAILY BRIEF SCHEDULER =============
-async def send_daily_brief(app):
-    """Send daily brief at 8 AM"""
-    msg = await build_daily_brief()
-    try:
-        await app.bot.send_message(
-            chat_id=CHAT_ID,
-            text=msg,
-            parse_mode="Markdown"
-        )
-        logger.info("Daily brief sent")
-    except Exception as e:
-        logger.error(f"Error sending daily brief: {e}")
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes, JobQueue, HTTPServer, BaseRequestHandler
+import threading
+from http.server import BaseHTTPRequestHandler, HTTPServer
 
 # ============= MAIN =============
 def main():
